@@ -5,7 +5,7 @@
 This project is intended to be use as a browser source in OBS.
 
 1. Create a browser source using the following URL: `https://sandrann.github.io/stream-pomodoro/`
-   - To customise the focus and break time lengths use the following URL instead: `https://njallam.github.io/stream-pomodoro/?pomodoro=45&shortBreak=10&longBreak=15` (replacing `45`, `10` and `15` with minute values as desired.)
+   - To customise the focus and break time lengths use the following URL instead: `https://sandrann.github.io/stream-pomodoro/?pomodoro=45&shortBreak=10&longBreak=15` (replacing `45`, `10` and `15` with minute values as desired.)
 2. To interact with the timer, right click the source in OBS and click "Interact".
 3. You can use Custom CSS to customise the look of the timer. See below for examples.
 
@@ -15,7 +15,7 @@ This project is intended to be use as a browser source in OBS.
 ```css
 body {
     background-color: rgba(0, 0, 0, 0);
-    font-family: 'Comic Sans MS';
+    font-family: 'Montserrat Bold';
 }
 ```
 Set the value of `font-family` (in this case `Comic Sans MS`) to the exact name of any font installed on your computer.
@@ -40,7 +40,7 @@ To additionally have a custom font, simply copy the `font-family` line from **Cu
 body {
     background-color: rgba(0, 0, 0, 0);
     color: black;
-    font-family: 'Comic Sans MS';
+    font-family: 'Montserrat Bold';
 }
 #progress-value {
     background-color: black
